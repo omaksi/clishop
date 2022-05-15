@@ -1,0 +1,1 @@
+zip db2project.zip **/*
