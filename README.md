@@ -1,4 +1,4 @@
-# CLI Eshop - school project
+# cli shop
 
 ## Definiton:
 
