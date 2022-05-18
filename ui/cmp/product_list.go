@@ -52,6 +52,10 @@ func (pt *ProductTable) SetProps(products []rdg.Product, onDelete func(user rdg.
 			return nil
 		}
 		if eventKey.Key() == tcell.KeyRune && eventKey.Rune() == 'a' {
+			if (products == nil) || (len(products) == 0) {
+				onAdd(rdg.Product{})
+				return nil
+			}
 			row, _ := pt.GetSelection()
 			onAdd(products[row-1])
 			return nil
