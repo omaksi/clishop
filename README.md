@@ -1,5 +1,9 @@
 # cli shop
 
+
+![clishop screnshot](/clishop-ss.png)
+
+
 ## Definiton:
 
 [https://db.dai.fmph.uniba.sk/teaching/db2/projekt/](https://db.dai.fmph.uniba.sk/teaching/db2/projekt/)
